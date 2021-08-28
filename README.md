@@ -17,3 +17,5 @@ You can configure the following environment variables below:
 - OPT_ARGS - additional command line arguments for zap2xml
 - XMLTV_FILENAME - filename for your xmltv file (default: xmltv.xml)
 - SLEEPTIME - time in seconds to wait before next run (default: 43200)
+
+NOTE: Setting a negative SLEEPTIME will run zap2xml once and exit (stop) the container.
